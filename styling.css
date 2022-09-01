@@ -1,0 +1,83 @@
+.container {
+  text-align: center;
+
+  color: #FFFFFF;
+  /* **Dont try and use font-color or text-color, just plain color is the css property for coloring the text */
+
+  text-shadow: 2px 2px 5px #FFFFFF;
+  /* **Cool trick from w3 schools, the 2px tells how big to make the shadow and the 5px blurs it */
+
+  background-image: url("joshua-coleman-oxH30nMjnKw-unsplash.jpg");
+  /* **The picture wouldnt show up as my background image until it was in the same folder as my visual code files, and then it shows up itself in the explorer section of visual code.  */
+  
+  background-repeat: no-repeat;
+  /* **I do not see a difference with this one in use or commented out.  */
+  
+  /* background-position: center; */ 
+  /* **This just shifts the alignment. When this isnt commented out, her hand is visible. I like it better uncentered.  */
+  
+  background-size: cover;
+  /* **without background size image is HUGE! */
+  
+  position: relative;
+ 
+  min-height: 100vh;
+  /* **If I comment this out, the image only shows in the top portion of the page until the link input box */
+  
+  width: 100vw;
+  /* **I dont see a difference whether this is commented out or used */
+}
+
+
+.link-input {
+    padding: 0.5em 1.25em;
+    /* **First number elongates the box vertically, second number elongates the box horizontally. Neither change the text, they just create more whitepace in the box, which gets larger */
+    
+    font-size: 1.25rem;
+    
+    border-radius: 10px;
+    /* **This rounds the corners or the link input box, the higher the numnber the more rounded the corners. I cant see much difference in anything higher than 50 */
+
+    width: 65%;
+    /* **This makes the link input box widen across the page. 100%makes it go all the way from right to left */
+  }
+
+/* .form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(275px, 50%, 700px);
+  margin: 0 auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 300ms ease opacity;
+}
+
+body.focus-form form {
+  transform: scale(1.1);
+}
+body.focus-form .link-input {
+  padding: 0.75em 1.5em;
+  font-size: 1.5rem;
+}
+body.focus-form .overlay {
+  opacity: 1;
+}
+
+form {
+
+  transition: 500ms cubic-bezier(0.17, 0.67, 0.35, 1.6) opacity;
+}
+.link-input {
+
+  transition: 500ms cubic-bezier(0.17, 0.67, 0.35, 1.6) all;
+} */
